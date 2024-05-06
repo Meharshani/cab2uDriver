@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/xml_network_security_config.xml.flat",
+        "source": "com.cab2u.driver.app-main-47:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.cab2u.driver.app-main-47:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/raw_uber.mp3.flat",
+        "source": "com.cab2u.driver.app-main-47:/raw/uber.mp3"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.cab2u.driver.app-main-47:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cab2u.driver.app-merged_res-45:/raw_notification.wav.flat",
+        "source": "com.cab2u.driver.app-main-47:/raw/notification.wav"
+    }
+]

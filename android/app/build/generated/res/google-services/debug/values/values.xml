@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">382760118393</string>
+    <string name="google_api_key" translatable="false">AIzaSyCXO70_VtS09-sILrxUImXdfjln-Um-ir0</string>
+    <string name="google_app_id" translatable="false">1:382760118393:android:8ed36358d68ed3625bcca8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCXO70_VtS09-sILrxUImXdfjln-Um-ir0</string>
+    <string name="google_storage_bucket" translatable="false">cab2udriver-7613d.appspot.com</string>
+    <string name="project_id" translatable="false">cab2udriver-7613d</string>
+</resources>

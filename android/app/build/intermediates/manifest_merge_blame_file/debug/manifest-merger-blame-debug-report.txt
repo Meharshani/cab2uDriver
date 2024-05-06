@@ -1,0 +1,831 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cab2u.driver"
+4    android:versionCode="4"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:7:5-77
+11-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:7:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:5:5-80
+13-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:6:5-79
+14-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:8:5-65
+15-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:8:22-62
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:9:5-66
+16-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:9:22-63
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:10:5-80
+17-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:11:5-81
+18-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:12:5-84
+19-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:12:22-82
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:13:5-67
+20-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:13:22-65
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:14:5-76
+21-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:14:22-74
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:15:5-78
+22-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:15:22-76
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+23-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\96602fe10b8a555d5154f07f3db6e526\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+23-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\96602fe10b8a555d5154f07f3db6e526\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+24    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+24-->[:rn-fetch-blob] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-73
+24-->[:rn-fetch-blob] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-70
+25    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:25:5-77
+25-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:25:22-74
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:28:5-82
+26-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:28:22-79
+27
+28    <queries>
+28-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:10:5-39:15
+29        <intent>
+29-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:11:9-17:18
+30            <action android:name="android.intent.action.VIEW" />
+30-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:12:13-65
+30-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:12:21-62
+31
+32            <data
+32-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:14:13-16:38
+33                android:mimeType="*/*"
+33-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:15:17-39
+34                android:scheme="*" />
+34-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:16:17-35
+35        </intent>
+36        <intent>
+36-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:18:9-27:18
+37            <action android:name="android.intent.action.VIEW" />
+37-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:12:13-65
+37-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:12:21-62
+38
+39            <category android:name="android.intent.category.BROWSABLE" />
+39-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:21:13-74
+39-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:21:23-71
+40
+41            <data
+41-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:14:13-16:38
+42                android:host="pay"
+43                android:mimeType="*/*"
+43-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:15:17-39
+44                android:scheme="upi" />
+44-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:16:17-35
+45        </intent>
+46        <intent>
+46-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:28:9-30:18
+47            <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:60:13-65
+47-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:60:21-62
+48        </intent>
+49        <intent>
+49-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:31:9-35:18
+50            <action android:name="android.intent.action.SEND" />
+50-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:32:13-65
+50-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:32:21-62
+51
+52            <data android:mimeType="*/*" />
+52-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:14:13-16:38
+52-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:15:17-39
+53        </intent>
+54        <intent>
+54-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:36:9-38:18
+55            <action android:name="rzp.device_token.share" />
+55-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:37:13-61
+55-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:37:21-58
+56        </intent>
+57        <!-- Needs to be explicitly declared on Android R+ -->
+58        <package android:name="com.google.android.apps.maps" />
+58-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c4f0fe145ec86f1f16cab707cbc3537f\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+58-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c4f0fe145ec86f1f16cab707cbc3537f\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+59    </queries>
+60
+61    <uses-feature
+61-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c4f0fe145ec86f1f16cab707cbc3537f\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+62        android:glEsVersion="0x00020000"
+62-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c4f0fe145ec86f1f16cab707cbc3537f\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+63        android:required="true" />
+63-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c4f0fe145ec86f1f16cab707cbc3537f\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+64
+65    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+65-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b528fa5dcbf20e1011d252ff1aae6b87\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+65-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b528fa5dcbf20e1011d252ff1aae6b87\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+66    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+66-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+66-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+67    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+68    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+69    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+70    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+71    <!-- for Samsung -->
+72    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+73    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+74    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+75    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+76    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+77    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+78    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+79    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+80    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+81    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+82    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+83    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+84    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+85    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+86    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+87    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+87-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+87-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c5c4929298b2e3d247e82313f7d25d25\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+88
+89    <application
+89-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:17:5-64:19
+90        android:name="com.cab2u.driver.MainApplication"
+90-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:18:7-38
+91        android:allowBackup="false"
+91-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:22:7-34
+92        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+92-->[androidx.core:core:1.8.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\8ed4bcf1757c5e2f992a396380f43090\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+93        android:debuggable="true"
+94        android:icon="@mipmap/ic_launcher"
+94-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:20:7-41
+95        android:label="@string/app_name"
+95-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:19:7-39
+96        android:networkSecurityConfig="@xml/network_security_config"
+96-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:24:7-67
+97        android:roundIcon="@mipmap/ic_launcher_round"
+97-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:21:7-52
+98        android:theme="@style/AppTheme"
+98-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:23:7-38
+99        android:usesCleartextTraffic="true" >
+99-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:25:7-42
+100        <activity
+100-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\debug\AndroidManifest.xml:11:9-111
+101            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+101-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\debug\AndroidManifest.xml:11:19-83
+102            android:exported="false" />
+102-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\debug\AndroidManifest.xml:11:84-108
+103
+104        <meta-data
+104-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:26:7-27:44
+105            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+105-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:26:19-95
+106            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+106-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:27:21-42
+107        <meta-data
+107-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:29:9-30:54
+108            android:name="com.dieam.reactnativepushnotification.notification_color"
+108-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:29:21-92
+109            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+109-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:30:21-52
+110        <receiver
+110-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:32:9-132
+111            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions"
+111-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:32:43-129
+112            android:exported="true" />
+112-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:32:19-42
+113        <receiver
+113-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:33:9-134
+114            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher"
+114-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:33:43-131
+115            android:exported="true" />
+115-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:33:19-42
+116        <receiver
+116-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:34:9-40:20
+117            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+117-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:34:43-139
+118            android:exported="true" >
+118-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:34:19-42
+119            <intent-filter>
+119-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:35:13-39:29
+120                <action android:name="android.intent.action.BOOT_COMPLETED" />
+120-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:36:17-79
+120-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:36:25-76
+121                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+121-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:37:17-82
+121-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:37:25-79
+122                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+122-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:38:17-81
+122-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:38:25-79
+123            </intent-filter>
+124        </receiver>
+125
+126        <service
+126-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:42:9-48:19
+127            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+127-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:43:13-107
+128            android:exported="false" >
+128-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:44:13-37
+129            <intent-filter>
+129-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:45:13-47:29
+130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+130-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:46:17-78
+130-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:46:25-75
+131            </intent-filter>
+132        </service>
+133
+134        <meta-data
+134-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:49:7-51:52
+135            android:name="com.google.android.geo.API_KEY"
+135-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:50:9-54
+136            android:value="ENTER YOUR GOOGLE MAP KEY" />
+136-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:51:9-50
+137
+138        <activity
+138-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:52:7-63:18
+139            android:name="com.cab2u.driver.MainActivity"
+139-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:53:9-37
+140            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+140-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:55:9-118
+141            android:exported="true"
+141-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:58:9-32
+142            android:label="@string/app_name"
+142-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:54:9-41
+143            android:launchMode="singleTask"
+143-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:56:9-40
+144            android:windowSoftInputMode="adjustResize" >
+144-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:57:9-51
+145            <intent-filter>
+145-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:59:9-62:25
+146                <action android:name="android.intent.action.MAIN" />
+146-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:60:13-65
+146-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:60:21-62
+147
+148                <category android:name="android.intent.category.LAUNCHER" />
+148-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:61:13-73
+148-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:61:23-70
+149            </intent-filter>
+150        </activity>
+151
+152        <meta-data
+152-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-11:36
+153            android:name="app_data_collection_default_enabled"
+153-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-63
+154            android:value="true" />
+154-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-33
+155
+156        <service
+156-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-21:19
+157            android:name="com.google.firebase.components.ComponentDiscoveryService"
+157-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-84
+158            android:directBootAware="true"
+158-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-43
+159            android:exported="false" >
+159-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+160            <meta-data
+160-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:85
+161                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+161-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-120
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:55:13-57:85
+164                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+164-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:56:17-119
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:57:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b451ea021f4eaad5bce67bcf015cfa04\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+167                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+167-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b451ea021f4eaad5bce67bcf015cfa04\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b451ea021f4eaad5bce67bcf015cfa04\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\f6b422688a35dd2900ddc95d3f839f64\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+170                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+170-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\f6b422688a35dd2900ddc95d3f839f64\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\f6b422688a35dd2900ddc95d3f839f64\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+172            <meta-data
+172-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b528fa5dcbf20e1011d252ff1aae6b87\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+173                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+173-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b528fa5dcbf20e1011d252ff1aae6b87\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b528fa5dcbf20e1011d252ff1aae6b87\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\399e69620ef7284e8fc13fdf01d0fea9\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+176                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+176-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\399e69620ef7284e8fc13fdf01d0fea9\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\399e69620ef7284e8fc13fdf01d0fea9\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+178        </service>
+179
+180        <provider
+180-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-27:38
+181            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+181-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-88
+182            android:authorities="com.cab2u.driver.reactnativefirebaseappinitprovider"
+182-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-86
+183            android:exported="false"
+183-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+184            android:initOrder="99" />
+184-->[:react-native-firebase_app] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-35
+185        <provider
+185-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+186            android:name="com.imagepicker.ImagePickerProvider"
+186-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-63
+187            android:authorities="com.cab2u.driver.imagepickerprovider"
+187-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-71
+188            android:exported="false"
+188-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+189            android:grantUriPermissions="true" >
+189-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+190            <meta-data
+190-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:70
+191                android:name="android.support.FILE_PROVIDER_PATHS"
+191-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+192                android:resource="@xml/imagepicker_provider_paths" />
+192-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+193        </provider>
+194
+195        <activity
+195-->[:react-native-razorpay] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-10:86
+196            android:name="com.razorpay.CheckoutActivity"
+196-->[:react-native-razorpay] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-57
+197            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+197-->[:react-native-razorpay] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-razorpay\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-83
+198            android:exported="false"
+198-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:54:13-37
+199            android:theme="@style/CheckoutTheme" >
+199-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:55:13-49
+200            <intent-filter>
+200-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:56:13-58:29
+201                <action android:name="android.intent.action.MAIN" />
+201-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:60:13-65
+201-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:60:21-62
+202            </intent-filter>
+203        </activity>
+204
+205        <provider
+205-->[:react-native-webview] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+206            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+206-->[:react-native-webview] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-83
+207            android:authorities="com.cab2u.driver.fileprovider"
+207-->[:react-native-webview] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-64
+208            android:exported="false"
+208-->[:react-native-webview] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+209            android:grantUriPermissions="true" >
+209-->[:react-native-webview] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+210            <meta-data
+210-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:70
+211                android:name="android.support.FILE_PROVIDER_PATHS"
+211-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+212                android:resource="@xml/file_provider_paths" />
+212-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+213        </provider>
+214        <provider
+214-->[:rn-fetch-blob] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-40:20
+215            android:name="com.RNFetchBlob.Utils.FileProvider"
+215-->[:rn-fetch-blob] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-62
+216            android:authorities="com.cab2u.driver.provider"
+216-->[:rn-fetch-blob] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-60
+217            android:exported="false"
+217-->[:rn-fetch-blob] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-37
+218            android:grantUriPermissions="true" >
+218-->[:rn-fetch-blob] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-47
+219            <meta-data
+219-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:70
+220                android:name="android.support.FILE_PROVIDER_PATHS"
+220-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+221                android:resource="@xml/provider_paths" />
+221-->[:react-native-image-picker] C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+222        </provider>
+223        <provider
+223-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+224            android:name="androidx.startup.InitializationProvider"
+224-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+225            android:authorities="com.cab2u.driver.androidx-startup"
+225-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+226            android:exported="false" >
+226-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+227            <meta-data
+227-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+228                android:name="androidx.work.WorkManagerInitializer"
+228-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+229                android:value="androidx.startup" />
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+230            <meta-data
+230-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\6c151f8442bf69da40343f881e1ae753\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+231                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+231-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\6c151f8442bf69da40343f881e1ae753\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+232                android:value="androidx.startup" />
+232-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\6c151f8442bf69da40343f881e1ae753\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+233            <meta-data
+233-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\016a8c9d81adad27a4298ea4c4611260\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+234                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+234-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\016a8c9d81adad27a4298ea4c4611260\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+235                android:value="androidx.startup" />
+235-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\016a8c9d81adad27a4298ea4c4611260\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+236        </provider>
+237
+238        <service
+238-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+239            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+239-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+240            android:directBootAware="false"
+240-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+241            android:enabled="@bool/enable_system_alarm_service_default"
+241-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+242            android:exported="false" />
+242-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+243        <service
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+244            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+245            android:directBootAware="false"
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+246            android:enabled="@bool/enable_system_job_service_default"
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+247            android:exported="true"
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+248            android:permission="android.permission.BIND_JOB_SERVICE" />
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+249        <service
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+250            android:name="androidx.work.impl.foreground.SystemForegroundService"
+250-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+251            android:directBootAware="false"
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+252            android:enabled="@bool/enable_system_foreground_service_default"
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+253            android:exported="false" />
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+254
+255        <receiver
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+256            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+258            android:enabled="true"
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+259            android:exported="false" />
+259-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+260        <receiver
+260-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+261            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+261-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+263            android:enabled="false"
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+264            android:exported="false" >
+264-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+265            <intent-filter>
+265-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+266                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+267                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+268            </intent-filter>
+269        </receiver>
+270        <receiver
+270-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+271            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+272            android:directBootAware="false"
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+273            android:enabled="false"
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+274            android:exported="false" >
+274-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+275            <intent-filter>
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+276                <action android:name="android.intent.action.BATTERY_OKAY" />
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+277                <action android:name="android.intent.action.BATTERY_LOW" />
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+278            </intent-filter>
+279        </receiver>
+280        <receiver
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+281            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+283            android:enabled="false"
+283-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+284            android:exported="false" >
+284-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+285            <intent-filter>
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+286                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+287                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+288            </intent-filter>
+289        </receiver>
+290        <receiver
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+291            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+293            android:enabled="false"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+294            android:exported="false" >
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+295            <intent-filter>
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+296                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+297            </intent-filter>
+298        </receiver>
+299        <receiver
+299-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+300            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+301            android:directBootAware="false"
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+302            android:enabled="false"
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+303            android:exported="false" >
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+304            <intent-filter>
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+305                <action android:name="android.intent.action.BOOT_COMPLETED" />
+305-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:36:17-79
+305-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:36:25-76
+306                <action android:name="android.intent.action.TIME_SET" />
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+307                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+308            </intent-filter>
+309        </receiver>
+310        <receiver
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+311            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+312            android:directBootAware="false"
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+313            android:enabled="@bool/enable_system_alarm_service_default"
+313-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+314            android:exported="false" >
+314-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+315            <intent-filter>
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+316                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+317            </intent-filter>
+318        </receiver>
+319        <receiver
+319-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+320            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+320-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+321            android:directBootAware="false"
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+322            android:enabled="true"
+322-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+323            android:exported="true"
+323-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+324            android:permission="android.permission.DUMP" >
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+325            <intent-filter>
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+326                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4ba711b6ec011523333ee8cb41dd1ce3\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+327            </intent-filter>
+328        </receiver>
+329
+330        <service
+330-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad usman\.gradle\caches\transforms-3\7245d4ba9f038370744955a51168ead9\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+331            android:name="androidx.room.MultiInstanceInvalidationService"
+331-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad usman\.gradle\caches\transforms-3\7245d4ba9f038370744955a51168ead9\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+332            android:directBootAware="true"
+332-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad usman\.gradle\caches\transforms-3\7245d4ba9f038370744955a51168ead9\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+333            android:exported="false" />
+333-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad usman\.gradle\caches\transforms-3\7245d4ba9f038370744955a51168ead9\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+334
+335        <receiver
+335-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:31:9-38:20
+336            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+336-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:32:13-78
+337            android:exported="true"
+337-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:33:13-36
+338            android:permission="com.google.android.c2dm.permission.SEND" >
+338-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:34:13-73
+339            <intent-filter>
+339-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:35:13-37:29
+340                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+340-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:36:17-81
+340-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:36:25-78
+341            </intent-filter>
+342        </receiver>
+343        <!--
+344             FirebaseMessagingService performs security checks at runtime,
+345             but set to not exported to explicitly avoid allowing another app to call it.
+346        -->
+347        <service
+347-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:44:9-51:19
+348            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+348-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:45:13-82
+349            android:directBootAware="true"
+349-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:46:13-43
+350            android:exported="false" >
+350-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\Muhammad usman\.gradle\caches\transforms-3\4153bb45039d092e0c55e1c475ec24e0\transformed\jetified-firebase-messaging-23.1.1\AndroidManifest.xml:47:13-37
+351            <intent-filter android:priority="-500" >
+351-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:45:13-47:29
+352                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+352-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:46:17-78
+352-->C:\Users\Muhammad usman\Desktop\application\cab2u-13\codecanyon-48505180-cab2u-react-native-complete-taxi-booking-solution\cab2u_driver\cab2u_driver\android\app\src\main\AndroidManifest.xml:46:25-75
+353            </intent-filter>
+354        </service>
+355        <service
+355-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\252ae85aa05e0952d827c378cf4521da\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+356            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+356-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\252ae85aa05e0952d827c378cf4521da\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+357            android:exported="false" >
+357-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\252ae85aa05e0952d827c378cf4521da\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+358            <meta-data
+358-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\252ae85aa05e0952d827c378cf4521da\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+359                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+359-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\252ae85aa05e0952d827c378cf4521da\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+360                android:value="cct" />
+360-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\252ae85aa05e0952d827c378cf4521da\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+361        </service>
+362        <service
+362-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b06642a63f461c554485e98b6388e080\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+363            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+363-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b06642a63f461c554485e98b6388e080\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+364            android:exported="false"
+364-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b06642a63f461c554485e98b6388e080\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+365            android:permission="android.permission.BIND_JOB_SERVICE" >
+365-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b06642a63f461c554485e98b6388e080\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+366        </service>
+367
+368        <receiver
+368-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b06642a63f461c554485e98b6388e080\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+369            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+369-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b06642a63f461c554485e98b6388e080\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+370            android:exported="false" />
+370-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Muhammad usman\.gradle\caches\transforms-3\b06642a63f461c554485e98b6388e080\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+371        <receiver
+371-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:42:9-49:20
+372            android:name="com.razorpay.RzpTokenReceiver"
+372-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:43:13-57
+373            android:exported="true" >
+373-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:44:13-36
+374            <intent-filter>
+374-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:46:13-48:29
+375                <action android:name="rzp.device_token.share" />
+375-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:37:13-61
+375-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:37:21-58
+376            </intent-filter>
+377        </receiver>
+378
+379        <meta-data
+379-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:61:9-63:58
+380            android:name="com.razorpay.plugin.googlepay_all"
+380-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:62:13-61
+381            android:value="com.razorpay.RzpGpayMerged" />
+381-->[com.razorpay:checkout:1.6.38] C:\Users\Muhammad usman\.gradle\caches\transforms-3\9fc7249de26c0061b4e1926fe60c6add\transformed\jetified-checkout-1.6.38\AndroidManifest.xml:63:13-55
+382
+383        <activity
+383-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+384            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+384-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+385            android:excludeFromRecents="true"
+385-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+386            android:exported="false"
+386-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+387            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+387-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+388        <!--
+389            Service handling Google Sign-In user revocation. For apps that do not integrate with
+390            Google Sign-In, this service will never be started.
+391        -->
+392        <service
+392-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+393            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+393-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+394            android:exported="true"
+394-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+395            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+395-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+396            android:visibleToInstantApps="true" />
+396-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\0670596d26943145091d0a504c85b1ff\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+397
+398        <meta-data
+398-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\Muhammad usman\.gradle\caches\transforms-3\f6031221e0a6f28e79c910ac6608b072\transformed\jetified-android-maps-utils-3.8.2\AndroidManifest.xml:8:9-10:69
+399            android:name="com.google.android.gms.version"
+399-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\Muhammad usman\.gradle\caches\transforms-3\f6031221e0a6f28e79c910ac6608b072\transformed\jetified-android-maps-utils-3.8.2\AndroidManifest.xml:9:13-58
+400            android:value="@integer/google_play_services_version" /> <!-- Needs to be explicitly declared on P+ -->
+400-->[com.google.maps.android:android-maps-utils:3.8.2] C:\Users\Muhammad usman\.gradle\caches\transforms-3\f6031221e0a6f28e79c910ac6608b072\transformed\jetified-android-maps-utils-3.8.2\AndroidManifest.xml:10:13-66
+401        <uses-library
+401-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c4f0fe145ec86f1f16cab707cbc3537f\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+402            android:name="org.apache.http.legacy"
+402-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c4f0fe145ec86f1f16cab707cbc3537f\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+403            android:required="false" />
+403-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\c4f0fe145ec86f1f16cab707cbc3537f\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+404
+405        <activity
+405-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\de914a827ab959260e0a4b984ab237c6\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:9-22:45
+406            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+406-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\de914a827ab959260e0a4b984ab237c6\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:19-85
+407            android:exported="false"
+407-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\de914a827ab959260e0a4b984ab237c6\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:22:19-43
+408            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+408-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\de914a827ab959260e0a4b984ab237c6\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:21:19-78
+409
+410        <provider
+410-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\070f48ac3707ecb8c4135eb2b53944e4\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+411            android:name="com.google.firebase.provider.FirebaseInitProvider"
+411-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\070f48ac3707ecb8c4135eb2b53944e4\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+412            android:authorities="com.cab2u.driver.firebaseinitprovider"
+412-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\070f48ac3707ecb8c4135eb2b53944e4\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+413            android:directBootAware="true"
+413-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\070f48ac3707ecb8c4135eb2b53944e4\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+414            android:exported="false"
+414-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\070f48ac3707ecb8c4135eb2b53944e4\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+415            android:initOrder="100" />
+415-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\070f48ac3707ecb8c4135eb2b53944e4\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+416
+417        <receiver
+417-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+418            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+418-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+419            android:enabled="true"
+419-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+420            android:exported="false" >
+420-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+421        </receiver>
+422
+423        <service
+423-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+424            android:name="com.google.android.gms.measurement.AppMeasurementService"
+424-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+425            android:enabled="true"
+425-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+426            android:exported="false" />
+426-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+427        <service
+427-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+428            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+428-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+429            android:enabled="true"
+429-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+430            android:exported="false"
+430-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+431            android:permission="android.permission.BIND_JOB_SERVICE" />
+431-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Muhammad usman\.gradle\caches\transforms-3\2c7267c5b58f285c12dc66714649a2d9\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+432    </application>
+433
+434</manifest>
